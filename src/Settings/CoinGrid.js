@@ -12,16 +12,16 @@ export const CoinGridStyled = styled.div`
 `;
 
 // Displays first the 100 coins from list
-function getCoinsToDisplay(coinList, topSection) {
-  return Object.keys(coinList).slice(0, topSection ? 10 : 100);
+function getCoinsToDisplay(coinList, topSection, favorites) {
+  return topSection ? favorites : Object.keys(coinList).slice(0, 100);
 }
 
 export default function ({ topSection }) {
   return (
     <AppContext.Consumer>
-      {({ coinList }) => (
+      {({ coinList, favorites }) => (
         <CoinGridStyled>
-          {getCoinsToDisplay(coinList, topSection).map((coinKey) => (
+          {getCoinsToDisplay(coinList, topSection, favorites).map((coinKey) => (
             <CoinTile topSection={topSection} coinKey={coinKey} />
           ))}
         </CoinGridStyled>
