@@ -11,7 +11,7 @@ export const CoinGridStyled = styled.div`
   margin-top: 40px;
 `;
 
-// Displays first the 100 coins from list
+// Displays the first 100 coins from list
 function getCoinsToDisplay(coinList, topSection, favorites) {
   return topSection ? favorites : Object.keys(coinList).slice(0, 100);
 }
