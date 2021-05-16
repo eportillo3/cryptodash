@@ -2,7 +2,7 @@ const lightTheme = false;
 
 export default {
   colors: [
-    "#61d936",
+    "#4AB49F",
     "#552ccb",
     "#1163c9",
     "#04A1EE",
