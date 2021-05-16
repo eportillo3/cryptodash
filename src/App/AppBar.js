@@ -19,6 +19,12 @@ const ControlButtonElem = styled.div`
     css`
       color: #4ab49f;
     `}
+
+  ${(props) =>
+    props.hidden &&
+    css`
+      display: none;
+    `}
 `;
 
 // Turns first letter to uppercase and rest to lowercase
@@ -29,8 +35,12 @@ const toProperCase = (lower) => {
 function ControlButton({ name }) {
   return (
     <AppContext.Consumer>
-      {({ page, setPage }) => (
-        <ControlButtonElem active={page === name} onClick={() => setPage(name)}>
+      {({ firstVisit, page, setPage }) => (
+        <ControlButtonElem
+          active={page === name}
+          onClick={() => setPage(name)}
+          hidden={firstVisit && name === "dashboard"}
+        >
           {toProperCase(name)}
         </ControlButtonElem>
       )}
