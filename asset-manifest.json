@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cryptodash/static/css/main.3016ede9.chunk.css",
+    "main.js": "/cryptodash/static/js/main.2a27c159.chunk.js",
+    "main.js.map": "/cryptodash/static/js/main.2a27c159.chunk.js.map",
+    "runtime-main.js": "/cryptodash/static/js/runtime-main.9e9949b5.js",
+    "runtime-main.js.map": "/cryptodash/static/js/runtime-main.9e9949b5.js.map",
+    "static/js/2.d5c78eac.chunk.js": "/cryptodash/static/js/2.d5c78eac.chunk.js",
+    "static/js/2.d5c78eac.chunk.js.map": "/cryptodash/static/js/2.d5c78eac.chunk.js.map",
+    "static/js/3.ec44cbfb.chunk.js": "/cryptodash/static/js/3.ec44cbfb.chunk.js",
+    "static/js/3.ec44cbfb.chunk.js.map": "/cryptodash/static/js/3.ec44cbfb.chunk.js.map",
+    "index.html": "/cryptodash/index.html",
+    "static/css/main.3016ede9.chunk.css.map": "/cryptodash/static/css/main.3016ede9.chunk.css.map",
+    "static/js/2.d5c78eac.chunk.js.LICENSE.txt": "/cryptodash/static/js/2.d5c78eac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e9949b5.js",
+    "static/js/2.d5c78eac.chunk.js",
+    "static/css/main.3016ede9.chunk.css",
+    "static/js/main.2a27c159.chunk.js"
+  ]
+}

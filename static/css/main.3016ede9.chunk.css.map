@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App/App.css"],"names":[],"mappings":"AAAA,KACE,wBAAyB,CACzB,UAAY,CACZ,kCACF","file":"main.3016ede9.chunk.css","sourcesContent":["body {\n  background-color: #0c0b0f;\n  color: white;\n  font-family: \"Quicksand\", sans-serif;\n}\n"]}
